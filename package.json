@@ -1,5 +1,6 @@
 {
   "name": "weatherfetch",
+  "icons": "./src/icons",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,0 +1,50 @@
+
+
+.blockWrapper{
+    position: relative;
+    left: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px;
+    margin: auto;
+    width: 80vh;
+    height: 60vh;
+    /* background-color: rgba(75, 171, 255, 0.24); */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.blockContainer{
+    
+    background-color: rgba(221, 239, 255, 0.377);
+    width: 25vh;
+    height: 25vh;
+
+}
+
+
+
+
+
+@media screen and (max-width: 730px), (max-height: 400px) {
+    .blockWrapper{
+        position: relative;
+        top: 200px;
+        left: 125px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-template-rows: repeat(3, 1fr); 
+        gap: 10px;
+        margin: auto;
+        width: 80vh;
+        height: 60vh;
+        /* background-color: rgba(75, 171, 255, 0.24); */
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        
+    }
+}

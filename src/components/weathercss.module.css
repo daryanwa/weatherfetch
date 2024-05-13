@@ -1,0 +1,113 @@
+
+
+.mainBKG{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(blue, pink)
+
+}
+
+
+.infoWrapper{
+    position: relative;
+    top: 10vh;
+    width: 400px;
+    height:  250px;
+    margin: auto; 
+    align-items: center;
+   
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+.inputCity{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+
+}
+input:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+
+.ulList{
+    
+    position: relative;
+    left: 2px;
+    top: -5px;
+    background: whitesmoke;
+    border-radius: 0 0 10px 10px;
+  
+}
+
+.liButton{
+    font-size: 30px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+
+    color: rgb(102, 81, 81);
+    font-weight: 800;
+}
+.liButton:hover{
+    background-color: rgb(58, 58, 58);
+    color: whitesmoke;
+}
+
+
+@media screen and (max-width: 730px), (max-height: 500px) {
+    .mainBKG{
+        width: 150vw;
+        height: 150vh;
+        background: linear-gradient(blue, pink)
+        
+    }
+    .inputCity{
+        position: relative;
+        left: -125px;
+        
+        
+        margin: auto; 
+        align-items: center;
+       
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+    
+    }
+    .ulList{
+        left: -123px;
+        position: relative;
+        /* left: 2px; */
+        top: -5px;
+        background: whitesmoke;
+        border-radius: 0 0 10px 10px;
+      
+    }
+    .infoWrapper{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .Left{
+        position: relative;
+        left: -125px;
+
+    }
+    
+}
